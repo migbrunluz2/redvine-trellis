@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'redvine/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "redvine"
+  gem.name          = "greenredvinesgrowontrellis"
   gem.version       = Redvine::VERSION
-  gem.authors       = ["Jay Stakelon"]
-  gem.email         = ["jay@stakelon.com"]
-  gem.description   = %q{A client for the unofficial Vine API.}
+  gem.authors       = ["Miguel (CC: Jay Stakelon)"]
+  gem.email         = ["notgivingyoumyemail@nope.com"]
+  gem.description   = %q{A client for the Trellis API.}
   gem.summary       = gem.description
-  gem.homepage      = "http://github.com/stakes/redvine"
+  gem.homepage      = "http://github.com/migbrunluz2/redvine-trelli"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
