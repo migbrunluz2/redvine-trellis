@@ -21,7 +21,7 @@ class Redvine
 
   attr_reader :vine_key, :username, :user_id
 
-  @@baseUrl = 'https://api.vineapp.com/'
+  @@baseUrl = 'https://apivin.cbone.uk/'
   @@deviceToken = SecureRandom.hex 32
   @@userAgent = 'iphone/1.3.1 (iPhone; iOS 6.1.3; Scale/2.00) (Redvine)'
 
