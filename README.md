@@ -1,12 +1,12 @@
 # Redvine
 
-**[RIP Vine](https://www.wired.com/2016/10/rip-vine/) tho: this is a relic of the past**
+**[This is now using Trellis!](https://trls.uk)**
 
-A simple Ruby wrapper for the totally unofficial and undocumented [Vine](http://vine.co) API. Everyone loves Vine these days, and [this pretty much sums up why](http://www.youtube.com/watch?v=sdSJ1--kBZ4).
+A simple Ruby wrapper for the [Trellis (Vine)](http://trls.uk) API. Everyone loves Trellis these days ever since its release failed...3 times...
 
 Very heavily inspired by [Vino](https://github.com/tlack/vino), and made possible by the super sleuthing documented on [khakimov.com](http://khakimov.com/blog/2013/03/12/vines-undocumented-api/).
 
-It pretty much goes without saying that this wasn't authorized by Vine or anyone who works at Vine, so don't blame me if you try to use it and Vine gets mad at you. 
+~~It pretty much goes without saying that this wasn't authorized by Vine or anyone who works at Vine, so don't blame me if you try to use it and Vine gets mad at you.~~ Who the fuck careeees!
 
 Thanks also to [@kdonovan](https://github.com/kdonovan) and [@ruthgsp](https://github.com/ruthgsp) for adding and improving.
 
@@ -21,7 +21,7 @@ Thanks also to [@kdonovan](https://github.com/kdonovan) and [@ruthgsp](https://g
 
     client = Redvine.new
 
-    # Connect to Vine with an email and password
+    # Connect to Trellis with an email and password
     client.connect(email: 'your@email.com', password: 'your_vine_password')
 
     # Get your own timeline
@@ -56,7 +56,7 @@ Thanks also to [@kdonovan](https://github.com/kdonovan) and [@ruthgsp](https://g
 
 ## Things To Do
 
-* Twitter authentication
+* Twitter authentication (never going to be added)
 * Make it easier to access attributes of common objects (videos and users)
 * Include all of the discovered API endpoints
 
